@@ -1,0 +1,33 @@
+{
+  "name": "fetch-json-to-ts",
+  "version": "0.0.1",
+  "description": "fetch-json-to-ts",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.esm.js",
+  "types": "./types/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "rollup -w -c rollup.config.ts --configPlugin typescript --environment NODE_ENV:development",
+    "build": "rollup -c rollup.config.ts --configPlugin typescript --environment NODE_ENV:production",
+    "test": "vitest run",
+    "example": "node ./example/index.mjs"
+  },
+  "keywords": [
+    "json",
+    "typescript"
+  ],
+  "author": "csl",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/node": "^20.10.5",
+    "rollup": "^4.9.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.0"
+  }
+}

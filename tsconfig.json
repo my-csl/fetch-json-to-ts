@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "noImplicitOverride": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true
+  },
+  "include": ["src/**/*.ts", "rollup.config.ts"]
+}
