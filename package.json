@@ -16,6 +16,15 @@
     "json",
     "typescript"
   ],
+  "files": [
+    "dist",
+    "types"
+  ],
+  "homepage": "https://github.com/my-csl/fetch-json-to-ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/my-csl/fetch-json-to-ts"
+  },
   "author": "csl",
   "license": "ISC",
   "devDependencies": {
